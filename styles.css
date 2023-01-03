@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Sign-up page styling */
+
+body {
+    position: relative;
+    width: 390px;
+    height: 844px;
+
+    background: linear-gradient(180deg, #FFFFFF 72.87%, #DBDBDB 100%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    position: absolute;
+    width: 320px;
+    height: 550px;
+    top: 100px;
+
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.headers {
+    position: absolute;
+    width: 253px;
+    height: 86px;
+    top: 40px;
+    /* 120px */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #000000;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+h2 {
+    position: absolute;
+    height: 24px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+#username-header {
+    width: 94px;
+    left: 30px;
+    top: 149px;
+}
+
+#email-header {
+    width: 61px;
+    left: 30px;
+    top: 259px;
+}
+
+#password-header {
+    width: 89px;
+    left: 30px;
+    top: 369px;
+}
+
+#username {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    top: 178px;
+}
+
+#email {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    top: 288px;
+}
+
+#password {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    top: 398px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    position: absolute;
+    width: 200px;
+    height: 41px;
+    top: 480px;
+
+    background: linear-gradient(90deg, #2977EC 0%, #81A6DE 100%);
+    border: 1px solid #A9B7CB;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+p {
+    position: absolute;
+    width: 255px;
+    height: 19px;
+    top: 645px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#links {
+    font-weight: 700;
+    text-decoration-line: underline;
+
+    color: #5495FF;
+}
+
+/* Log-in page styling */
+
+#login-container {
+    position: absolute;
+    width: 320px;
+    height: 440px;
+    top: 100px;
+
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.login-headers {
+    position: absolute;
+    width: 253px;
+    height: 86px;
+    top: 40px;
+    /* 120px */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#login-username-header {
+    width: 94px;
+    left: 30px;
+    top: 149px;
+}
+
+#login-password-header {
+    width: 89px;
+    left: 30px;
+    top: 259px;
+}
+
+#login-username {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    top: 178px;
+}
+
+#login-password {
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    top: 288px;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-buttons {
+    top: 365px;
+}
